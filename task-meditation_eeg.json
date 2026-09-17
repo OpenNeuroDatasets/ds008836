@@ -12,5 +12,9 @@
   "PowerLineFrequency": 60,
   "SoftwareFilters": "n/a",
   "HardwareFilters": "n/a",
-  "RecordingType": "continuous"
+  "RecordingType": "continuous",
+  "EOGChannelCount": 0,
+  "MISCChannelCount": 3,
+  "TriggerChannelCount": 0,
+  "EEGPlacementScheme": "10-10"
 }
