@@ -40,8 +40,14 @@ task description.
 
 ## Recording
 
-- EEG: 64-channel dual-amplifier cap (BrainVision), 500 Hz, online reference
-  FCz, ground AFz, impedances below 10 kOhm.
+- EEG: BrainAmp DC 64 (Brain Products; two stacked 32-channel units, hence the
+  "dual-amp" system of Reggente et al.) with a 64-channel BrainCap TMS fitted with
+  sintered Ag/AgCl multitrodes plus one ground and one reference, 500 Hz, online
+  reference FCz, ground AFz, impedances below 10 kOhm. The cap was used unmodified:
+  the holes it allows were never cut, and no transcranial magnetic stimulation was
+  part of this study. The scalp was exfoliated with NuPrep (Weaver and Co.) and the
+  electrodes filled with Abralyt 2000, a high-chloride abrasive electrolyte gel
+  (Neurospec; EASYCAP).
 - Physiology: Cognionics Aim II system, recording electromyography from the left
   and right sternocleidomastoid muscles, respiration by bio-impedance on the left
   and right pectoralis major (the same leads recorded the ECG), and electrodermal

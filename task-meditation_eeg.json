@@ -4,8 +4,8 @@
   "Instructions": "Depth prompt: Please rate the depth of your meditation since your last response on a scale from 1-5. Confidence prompt: On a scale from 1-5, how confident are you in your response?",
   "InstitutionName": "Institute for Advanced Consciousness Studies",
   "InstitutionAddress": "2811 Wilshire Blvd., Santa Monica, CA 90403, USA",
-  "Manufacturer": "BrainVision",
-  "CapManufacturer": "BrainVision",
+  "Manufacturer": "Brain Products",
+  "CapManufacturer": "Brain Products",
   "EEGReference": "FCz",
   "EEGGround": "AFz",
   "SamplingFrequency": 500,
@@ -16,5 +16,9 @@
   "EOGChannelCount": 0,
   "MISCChannelCount": 3,
   "TriggerChannelCount": 0,
-  "EEGPlacementScheme": "10-10"
+  "EEGPlacementScheme": "10-10",
+  "ManufacturersModelName": "BrainAmp DC 64",
+  "CapManufacturersModelName": "BrainCap TMS 64Ch (sintered Ag/AgCl multitrodes, used unmodified)",
+  "SoftwareVersions": "LSL acquisition app 1.14.1 (liblsl 1.13)",
+  "InstitutionalDepartmentName": "Institute for Advanced Consciousness Studies"
 }
