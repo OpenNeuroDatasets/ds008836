@@ -1,42 +1,43 @@
 {
-  "Name": "Heartbeat-evoked responses and self-reported meditative depth in Vipassana practitioners",
-  "BIDSVersion": "1.10.0",
-  "HEDVersion": "8.4.0",
-  "DatasetType": "raw",
-  "GeneratedBy": [
-    {
-      "Name": "step0_convert_to_bids.m",
-      "Description": "Conversion of the XDF recordings to BIDS (code/)",
-      "CodeURL": "https://github.com/Institute-for-Advanced-Consciousness"
-    }
-  ],
-  "License": "CC0",
-  "Authors": [
-    "Cannard, C.",
-    "Nath, M.",
-    "Becattini, V.",
-    "Laukkonen, R.E.",
-    "Ganesan, S.",
-    "Hanley, A.",
-    "Holecek, A.",
-    "Simonian, N.",
-    "Lifshitz, M.",
-    "Schoeller, F.",
-    "Cahn, B.R.",
-    "Khalsa, S.",
-    "Sacchet, M.D.",
-    "Reggente, N."
-  ],
-  "Acknowledgements": "We gratefully acknowledge our study participants and the research team, including Geena Wang, Caitlin Lynch, Pollyanna Esaghoolian, and Amirvala Tavakoli. Valuable contributions came from University of California, Los Angeles interns: Mackenzie Drury, Gina Jackson, Elizabeth Gukasyan, Gianna Narula, Kelly Vu, Gwyneth Schoebaum, Inessa Sevantsian, Teresa Garcia, Charlotte Kehinde Adetoun, Asli Sara Bilgili, Montana James, and Aylah Karim. We also extend thanks to Intheon, Inc. (San Diego, CA) for their contributions to the overarching software infrastructure that permitted this data collection.",
-  "HowToAcknowledge": "Please cite the article associated with this dataset.",
-  "Funding": [
-    "Tiny Blue Dot Foundation grant to N.R."
-  ],
-  "EthicsApprovals": [
-    "Advarra Institutional Review Board, Columbia, MD (Protocol No. Pro00063946)"
-  ],
-  "ReferencesAndLinks": [
-    "Reggente, N., Kothe, C., Brandmeyer, T., Hanada, G., Simonian, N., Mullen, S., et al. (2024). Decoding Depth of Meditation: EEG Insights from Expert Vipassana Practitioners. Biological Psychiatry Global Open Science, 100402. doi: 10.1016/j.bpsgos.2024.100402",
-    "https://github.com/Institute-for-Advanced-Consciousness"
-  ]
+    "Name": "Heartbeat-evoked responses and self-reported meditative depth in Vipassana practitioners",
+    "BIDSVersion": "1.10.0",
+    "HEDVersion": "8.4.0",
+    "DatasetType": "raw",
+    "GeneratedBy": [
+        {
+            "Name": "step0_convert_to_bids.m",
+            "Description": "Conversion of the XDF recordings to BIDS (code/)",
+            "CodeURL": "https://github.com/Institute-for-Advanced-Consciousness"
+        }
+    ],
+    "License": "CC0",
+    "Authors": [
+        "Cannard, C.",
+        "Nath, M.",
+        "Becattini, V.",
+        "Laukkonen, R.E.",
+        "Ganesan, S.",
+        "Hanley, A.",
+        "Holecek, A.",
+        "Simonian, N.",
+        "Lifshitz, M.",
+        "Schoeller, F.",
+        "Cahn, B.R.",
+        "Khalsa, S.",
+        "Sacchet, M.D.",
+        "Reggente, N."
+    ],
+    "Acknowledgements": "We gratefully acknowledge our study participants and the research team, including Geena Wang, Caitlin Lynch, Pollyanna Esaghoolian, and Amirvala Tavakoli. Valuable contributions came from University of California, Los Angeles interns: Mackenzie Drury, Gina Jackson, Elizabeth Gukasyan, Gianna Narula, Kelly Vu, Gwyneth Schoebaum, Inessa Sevantsian, Teresa Garcia, Charlotte Kehinde Adetoun, Asli Sara Bilgili, Montana James, and Aylah Karim. We also extend thanks to Intheon, Inc. (San Diego, CA) for their contributions to the overarching software infrastructure that permitted this data collection.",
+    "HowToAcknowledge": "Please cite the article associated with this dataset.",
+    "Funding": [
+        "Tiny Blue Dot Foundation grant to N.R."
+    ],
+    "EthicsApprovals": [
+        "Advarra Institutional Review Board, Columbia, MD (Protocol No. Pro00063946)"
+    ],
+    "ReferencesAndLinks": [
+        "Reggente, N., Kothe, C., Brandmeyer, T., Hanada, G., Simonian, N., Mullen, S., et al. (2024). Decoding Depth of Meditation: EEG Insights from Expert Vipassana Practitioners. Biological Psychiatry Global Open Science, 100402. doi: 10.1016/j.bpsgos.2024.100402",
+        "https://github.com/Institute-for-Advanced-Consciousness"
+    ],
+    "DatasetDOI": "doi:10.18112/openneuro.ds008836.v1.0.0"
 }
