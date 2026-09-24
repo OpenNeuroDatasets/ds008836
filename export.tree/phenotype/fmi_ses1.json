@@ -1,0 +1,50 @@
+{
+  "MeasurementToolMetadata": {
+    "Description": "Freiburg Mindfulness Inventory (Walach et al., 2006), completed before the session."
+  },
+  "session_id": {
+    "Description": "Session in which the questionnaire was completed."
+  },
+  "score": {
+    "Description": "Sum of the 13 item responses."
+  },
+  "item_01": {
+    "Description": "Response to item 1."
+  },
+  "item_02": {
+    "Description": "Response to item 2."
+  },
+  "item_03": {
+    "Description": "Response to item 3."
+  },
+  "item_04": {
+    "Description": "Response to item 4."
+  },
+  "item_05": {
+    "Description": "Response to item 5."
+  },
+  "item_06": {
+    "Description": "Response to item 6."
+  },
+  "item_07": {
+    "Description": "Response to item 7."
+  },
+  "item_08": {
+    "Description": "Response to item 8."
+  },
+  "item_09": {
+    "Description": "Response to item 9."
+  },
+  "item_10": {
+    "Description": "Response to item 10."
+  },
+  "item_11": {
+    "Description": "Response to item 11."
+  },
+  "item_12": {
+    "Description": "Response to item 12."
+  },
+  "item_13": {
+    "Description": "Response to item 13."
+  }
+}
