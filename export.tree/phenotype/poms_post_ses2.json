@@ -1,0 +1,119 @@
+{
+  "MeasurementToolMetadata": {
+    "Description": "Brief Profile of Mood States (McNair, 1992), completed after the session. Items are numbered in the order of the survey export; their wording is not reproduced."
+  },
+  "session_id": {
+    "Description": "Session in which the questionnaire was completed."
+  },
+  "total_mood_disturbance": {
+    "Description": "Total mood disturbance score."
+  },
+  "tension": {
+    "Description": "Tension subscale score."
+  },
+  "depression": {
+    "Description": "Depression subscale score."
+  },
+  "anger": {
+    "Description": "Anger subscale score."
+  },
+  "vigor": {
+    "Description": "Vigor subscale score."
+  },
+  "fatigue": {
+    "Description": "Fatigue subscale score."
+  },
+  "confusion": {
+    "Description": "Confusion subscale score."
+  },
+  "item_01": {
+    "Description": "Response to item 1."
+  },
+  "item_02": {
+    "Description": "Response to item 2."
+  },
+  "item_03": {
+    "Description": "Response to item 3."
+  },
+  "item_04": {
+    "Description": "Response to item 4."
+  },
+  "item_05": {
+    "Description": "Response to item 5."
+  },
+  "item_06": {
+    "Description": "Response to item 6."
+  },
+  "item_07": {
+    "Description": "Response to item 7."
+  },
+  "item_08": {
+    "Description": "Response to item 8."
+  },
+  "item_09": {
+    "Description": "Response to item 9."
+  },
+  "item_10": {
+    "Description": "Response to item 10."
+  },
+  "item_11": {
+    "Description": "Response to item 11."
+  },
+  "item_12": {
+    "Description": "Response to item 12."
+  },
+  "item_13": {
+    "Description": "Response to item 13."
+  },
+  "item_14": {
+    "Description": "Response to item 14."
+  },
+  "item_15": {
+    "Description": "Response to item 15."
+  },
+  "item_16": {
+    "Description": "Response to item 16."
+  },
+  "item_17": {
+    "Description": "Response to item 17."
+  },
+  "item_18": {
+    "Description": "Response to item 18."
+  },
+  "item_19": {
+    "Description": "Response to item 19."
+  },
+  "item_20": {
+    "Description": "Response to item 20."
+  },
+  "item_21": {
+    "Description": "Response to item 21."
+  },
+  "item_22": {
+    "Description": "Response to item 22."
+  },
+  "item_23": {
+    "Description": "Response to item 23."
+  },
+  "item_24": {
+    "Description": "Response to item 24."
+  },
+  "item_25": {
+    "Description": "Response to item 25."
+  },
+  "item_26": {
+    "Description": "Response to item 26."
+  },
+  "item_27": {
+    "Description": "Response to item 27."
+  },
+  "item_28": {
+    "Description": "Response to item 28."
+  },
+  "item_29": {
+    "Description": "Response to item 29."
+  },
+  "item_30": {
+    "Description": "Response to item 30."
+  }
+}
