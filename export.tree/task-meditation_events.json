@@ -1,0 +1,161 @@
+{
+  "StimulusPresentation": {
+    "SoftwareName": "NeuroPype Experiment Recorder (Intheon)"
+  },
+  "sample": {
+    "Description": "Sample index of the event in the recording, starting at 0."
+  },
+  "value": {
+    "Description": "Marker text as written by the experiment software."
+  },
+  "trial_type": {
+    "Description": "Category of the event, derived from the marker text.",
+    "Levels": {
+      "task_begin": "Start of the experiment sequence.",
+      "task_end": "End of the experiment sequence.",
+      "baseline_begin": "Start of the resting-state block.",
+      "baseline_end": "End of the resting-state block.",
+      "pre_meditation_begin": "Start of the pre-up meditation block.",
+      "pre_meditation_end": "End of the pre-up meditation block.",
+      "silent_emerge_begin": "Start of the SILENT meditation block with spontaneous depth reports.",
+      "silent_emerge_end": "End of the SILENT meditation block with spontaneous depth reports.",
+      "silent_probe_begin": "Start of the SILENT meditation block with prompted depth reports.",
+      "silent_probe_end": "End of the SILENT meditation block with prompted depth reports.",
+      "sapo_emerge_begin": "Start of the SAPO meditation block with spontaneous depth reports.",
+      "sapo_emerge_end": "End of the SAPO meditation block with spontaneous depth reports.",
+      "sapo_probe_begin": "Start of the SAPO meditation block with prompted depth reports.",
+      "sapo_probe_end": "End of the SAPO meditation block with prompted depth reports.",
+      "active_oddball_begin": "Start of the active oddball task.",
+      "active_oddball_end": "End of the active oddball task.",
+      "break_begin": "Start of a break between blocks.",
+      "break_end": "End of a break between blocks.",
+      "post_meditation_begin": "Start of the cool-down meditation block.",
+      "post_meditation_end": "End of the cool-down meditation block.",
+      "block_duration": "Marker written at the end of a 35-minute block; the logged block duration is in the logged_duration column.",
+      "subblock_begin": "Start of a sub-block within a meditation block.",
+      "subblock_end": "End of a sub-block; the logged sub-block duration is in the logged_duration column.",
+      "silence_begin": "Start of the part of a sub-block that precedes the gong.",
+      "silence_end": "End of the part of a sub-block that precedes the gong.",
+      "gong_begin": "Onset of the gong ending a sub-block, a cue to refocus attention.",
+      "gong_end": "Offset of the gong.",
+      "report_window_begin": "Start of a depth report initiated by the participant (emerge variant).",
+      "report_window_end": "End of a depth report initiated by the participant.",
+      "prompt_window_begin": "Start of a prompted depth report: probe variant, and the ratings after the pre-up meditation, active oddball and cool-down blocks.",
+      "prompt_window_end": "End of a prompted depth report.",
+      "depth_rating": "Depth rating registered; the rating is in the depth column.",
+      "confidence_rating": "Confidence rating registered; the rating is in the confidence column.",
+      "standard_tone": "Standard tone (500 Hz).",
+      "oddball_tone": "Oddball tone (1000 Hz).",
+      "distractor_noise": "White-noise distractor.",
+      "clicker_press": "Clicker press registered; the key is in the key column.",
+      "oddball_response": "Button press in the active oddball task; the response time is in the response_time column.",
+      "boundary": "Discontinuity in the data: a gap of more than 0.1 s in the EEG acquisition time stamps."
+    },
+    "HED": {
+      "boundary": "(Data-break-marker)",
+      "task_begin": "(Experiment-structure, Label/Task-begin)",
+      "task_end": "(Experiment-structure, Label/Task-end)",
+      "baseline_begin": "(Experiment-structure, Label/Block-begin, Def/Baseline-block)",
+      "baseline_end": "(Experiment-structure, Label/Block-end, Def/Baseline-block)",
+      "pre_meditation_begin": "(Experiment-structure, Label/Block-begin, Def/Pre-meditation-block)",
+      "pre_meditation_end": "(Experiment-structure, Label/Block-end, Def/Pre-meditation-block)",
+      "silent_emerge_begin": "(Experiment-structure, Label/Block-begin, Def/Silent-emerge-block)",
+      "silent_emerge_end": "(Experiment-structure, Label/Block-end, Def/Silent-emerge-block)",
+      "silent_probe_begin": "(Experiment-structure, Label/Block-begin, Def/Silent-probe-block)",
+      "silent_probe_end": "(Experiment-structure, Label/Block-end, Def/Silent-probe-block)",
+      "sapo_emerge_begin": "(Experiment-structure, Label/Block-begin, Def/SAPO-emerge-block)",
+      "sapo_emerge_end": "(Experiment-structure, Label/Block-end, Def/SAPO-emerge-block)",
+      "sapo_probe_begin": "(Experiment-structure, Label/Block-begin, Def/SAPO-probe-block)",
+      "sapo_probe_end": "(Experiment-structure, Label/Block-end, Def/SAPO-probe-block)",
+      "active_oddball_begin": "(Experiment-structure, Label/Block-begin, Def/Active-oddball-block)",
+      "active_oddball_end": "(Experiment-structure, Label/Block-end, Def/Active-oddball-block)",
+      "break_begin": "(Experiment-structure, Label/Break-begin, Def/Break-period)",
+      "break_end": "(Experiment-structure, Label/Break-end, Def/Break-period)",
+      "post_meditation_begin": "(Experiment-structure, Label/Block-begin, Def/Post-meditation-block)",
+      "post_meditation_end": "(Experiment-structure, Label/Block-end, Def/Post-meditation-block)",
+      "block_duration": "(Experiment-structure, Label/Block-duration, {logged_duration})",
+      "subblock_begin": "(Experiment-structure, Label/Subblock-begin)",
+      "subblock_end": "(Experiment-structure, Label/Subblock-end, {logged_duration})",
+      "silence_begin": "(Experiment-structure, Label/Silence-begin)",
+      "silence_end": "(Experiment-structure, Label/Silence-end)",
+      "gong_begin": "(Sensory-event, Label/Gong-begin, Def/Gong-sound)",
+      "gong_end": "(Experiment-structure, Label/Gong-end)",
+      "report_window_begin": "(Agent-action, Participant-response, Label/Report-window-begin, Def/Report-window)",
+      "report_window_end": "(Experiment-structure, Label/Report-window-end)",
+      "prompt_window_begin": "(Sensory-event, Auditory-presentation, Instructional, Label/Prompt-window-begin, Def/Prompt-window)",
+      "prompt_window_end": "(Experiment-structure, Label/Prompt-window-end)",
+      "depth_rating": "(Agent-action, Participant-response, Judge, Label/Meditation-depth, {depth})",
+      "confidence_rating": "(Agent-action, Participant-response, Judge, Label/Rating-confidence, {confidence})",
+      "standard_tone": "(Sensory-event, Auditory-presentation, (Tone, Frequency/500 Hz), Expected)",
+      "oddball_tone": "(Sensory-event, Auditory-presentation, (Tone, Frequency/1000 Hz), Oddball)",
+      "distractor_noise": "(Sensory-event, Auditory-presentation, Signal-noise, Distractor)",
+      "clicker_press": "(Agent-action, Participant-response, Press, Push-button, {key})",
+      "oddball_response": "(Agent-action, Participant-response, Press, Push-button, Label/Oddball-response)"
+    }
+  },
+  "block": {
+    "Description": "Block in which the event occurred, or to which a report belongs.",
+    "Levels": {
+      "baseline": "Resting state with eyes closed, without meditation (5 min).",
+      "pre_meditation": "Pre-up meditation in the participant's standard practice (5 min).",
+      "silent_emerge": "Meditation without the SAPO sequence (SILENT), spontaneous depth reports (35 min).",
+      "silent_probe": "Meditation without the SAPO sequence (SILENT), prompted depth reports (35 min).",
+      "sapo_emerge": "Meditation with the sustained attention passive oddball sequence (SAPO), spontaneous depth reports (35 min).",
+      "sapo_probe": "Meditation with the sustained attention passive oddball sequence (SAPO), prompted depth reports (35 min).",
+      "active_oddball": "Active oddball task, button press to oddball tones (5 min).",
+      "break": "Break between blocks.",
+      "post_meditation": "Cool-down meditation (5 min)."
+    }
+  },
+  "depth": {
+    "Description": "Depth rating as registered, on the 1 to 5 scale. Values of 0 and above 5 occur in the recordings; the associated article removed ratings of 0 and set values above 5 to 5.",
+    "HED": "Parameter-value/#"
+  },
+  "confidence": {
+    "Description": "Confidence rating as registered, on the 1 to 5 scale. Values of 0 and above 5 occur in the recordings.",
+    "HED": "Parameter-value/#"
+  },
+  "response_time": {
+    "Description": "Response time in the active oddball task.",
+    "Units": "s"
+  },
+  "logged_duration": {
+    "Description": "Duration logged by the experiment software at the end of a sub-block or block.",
+    "Units": "s",
+    "HED": "(Label/Logged-duration, Parameter-value/#)"
+  },
+  "key": {
+    "Description": "Clicker key registered by the experiment software.",
+    "Levels": {
+      "arrow_up": "Arrow-up key.",
+      "arrow_down": "Arrow-down key.",
+      "page_up": "Page-up key.",
+      "page_down": "Page-down key.",
+      "enter": "Enter key."
+    },
+    "HED": {
+      "arrow_up": "Label/Arrow-up",
+      "arrow_down": "Label/Arrow-down",
+      "page_up": "Label/Page-up",
+      "page_down": "Label/Page-down",
+      "enter": "Label/Enter"
+    }
+  },
+  "hed_definitions": {
+    "Description": "HED definitions used by the annotations of this file.",
+    "HED": {
+      "baseline_block": "(Definition/Baseline-block, (Time-block, Resting, Eyes-closed))",
+      "pre_meditation_block": "(Definition/Pre-meditation-block, (Time-block, Eyes-closed, Description/Pre-up meditation in the standard practice of the participant))",
+      "silent_emerge_block": "(Definition/Silent-emerge-block, (Time-block, Eyes-closed, Description/Meditation without the oddball sequence with spontaneous depth reports))",
+      "silent_probe_block": "(Definition/Silent-probe-block, (Time-block, Eyes-closed, Description/Meditation without the oddball sequence with prompted depth reports))",
+      "sapo_emerge_block": "(Definition/SAPO-emerge-block, (Time-block, Eyes-closed, Description/Meditation with the passive oddball sequence and spontaneous depth reports))",
+      "sapo_probe_block": "(Definition/SAPO-probe-block, (Time-block, Eyes-closed, Description/Meditation with the passive oddball sequence and prompted depth reports))",
+      "active_oddball_block": "(Definition/Active-oddball-block, (Time-block, Eyes-closed, Description/Active auditory oddball task with a button press to oddball tones))",
+      "break_period": "(Definition/Break-period, (Time-block, Description/Break between blocks))",
+      "post_meditation_block": "(Definition/Post-meditation-block, (Time-block, Eyes-closed, Description/Cool-down meditation))",
+      "gong_sound": "(Definition/Gong-sound, (Auditory-presentation, Sound, Cue, Label/Gong))",
+      "report_window": "(Definition/Report-window, (Time-block, Description/Depth and confidence report initiated by the participant))",
+      "prompt_window": "(Definition/Prompt-window, (Time-block, Description/Prompted depth and confidence report))"
+    }
+  }
+}
