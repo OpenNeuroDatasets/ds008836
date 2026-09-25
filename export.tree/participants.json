@@ -1,0 +1,37 @@
+{
+  "participant_id": {
+    "Description": "Participant label. Study record identifiers were replaced by sequential labels."
+  },
+  "in_analysis": {
+    "Description": "Whether the participant entered the analyses of the associated article.",
+    "Levels": {
+      "yes": "Included in the analyses.",
+      "no": "Not included in the analyses."
+    }
+  },
+  "age": {
+    "Description": "Age reported at screening.",
+    "Units": "year"
+  },
+  "sex": {
+    "Description": "Sex reported at screening.",
+    "Levels": {
+      "female": "Female",
+      "male": "Male"
+    }
+  },
+  "retreat_days": {
+    "Description": "Days of meditation retreat reported at screening.",
+    "Units": "day"
+  },
+  "meditation_frequency": {
+    "Description": "Meditation sessions per week reported at screening."
+  },
+  "meditation_length": {
+    "Description": "Typical length of a meditation session reported at screening, as the answer code of the screening form (2 to 5)."
+  },
+  "meditation_years_experience": {
+    "Description": "Years of meditation experience reported at screening.",
+    "Units": "year"
+  }
+}
