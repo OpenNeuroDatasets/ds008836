@@ -1,4 +1,0 @@
-1.0.1 2026-10-07
-  - Marked the PPG channel as bad in every channels.tsv (no photoplethysmography sensor was attached) and updated the README accordingly.
-1.0.0 2026-09-24
-  - Initial release.
