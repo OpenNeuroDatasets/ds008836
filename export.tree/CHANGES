@@ -1,6 +1,0 @@
-1.0.2 2026-10-20
-  - participants.tsv: in_analysis set to yes for sub-005 and sub-006. README and events sidecar: how a rating is entered and when it is registered.
-1.0.1 2026-10-07
-  - Marked the PPG channel as bad in every channels.tsv (no photoplethysmography sensor was attached) and updated the README accordingly.
-1.0.0 2026-09-24
-  - Initial release.
